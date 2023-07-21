@@ -17,7 +17,7 @@ public class HelloController {
                 .dataHeader(DataHeaderResponseTypeDto.builder().responseCode(0).build())
                 .data(AgentOutTypeDto.builder()
                         .agency("123")
-                        .agentCode("007")
+                        .agentCode(codigo)
                         .agentStatus("ok")
                         .agreementCode("test")
                         .documentNumber("123456")
